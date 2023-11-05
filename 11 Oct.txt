@@ -1,0 +1,132 @@
+/*We are given an array of size n which contains the number of bananas in 
+each pile. In one hour Koko can eat at most K bananas. 
+If the pile contains less than K bananas in that case if Koko finishes 
+all bananas of that pile then she cannot start eating bananas from another pile 
+in the same hour.
+Koko wants to eat all bananas within H hours. 
+We are supposed to find the minimum value of K.
+
+Sample Input-1:
+---------------
+4 8 9 13
+8
+Sample Output-1:
+----------------
+5
+
+Sample Input-2:
+---------------
+15 18 12 17 22
+7
+Sample Output-2:
+----------------
+17
+*/
+
+
+/*Mr.Balu is working in a metal store he has to arrange the steel boxes for saving 
+space he used to insert one box into another,Every day he used to get different sized boxes,
+help him to make his work simple by writing a program to find maximum number of boxes
+he can put one inside the other. 
+
+For this, You are given a 2D array of integers boxes where boxes[i] = [wi, hi] represents 
+the width and the height of a box.
+One box can fit into another if and only if both the width and height of one box are 
+greater than the other box's width and height.
+Return the maximum number of boxes you can  put one inside the other.
+
+Note: Consider only width and height of boxes.
+input format : integer number n
+               n number of pairs
+output format : an integer n 
+Example 1:
+Input: 4
+5 4
+6 4
+6 7
+2 3
+Output: 3
+Explanation: The maximum number of boxes you can insert is 3 ([2,3] => [5,4] => [6,7]).
+
+Example 2:
+Input: 3
+1 1 
+1 1
+1 1
+Output: 1
+
+Example 3:
+Input: 5
+2 3
+6 4
+6 7
+2 4
+8 9
+Output: 1
+*/
+/*Mason work is going on at your home, and presently mason is building staircase. 
+The stair case consists of k rows, where the ith row has exactly i bricks.
+The last row of the staircase may be incomplete.
+
+you have n bricks and can you give the number of complete rows of the staircase mason will build.
+
+Solve this problem in  O(logn) time complexity.
+
+input format : an integer number
+outpu format : an integer numebr
+
+Example 1:
+input= 5
+output =2
+Explanation :(Here B stands for brick)
+B1
+B2 B3
+B4 B5
+first row constructed with 1 brick row =1 no.of bricks =1
+second row constructed with 2 bricks row=2 no.of bricks = 2
+third row constructed with 2 bricks  row =3 no.of bricks =2 (incomplete row)
+as third row is incomplete we are returing 2 as answer.
+
+Example :2
+input =10
+output =4
+Explanation:
+B1
+B2 B3
+B4 B5 B6
+B7 B8 B9 B10
+all rows are completed so return 4
+
+Example :3
+input = 19
+output =5*/
+
+
+
+/*Given the array of strings S[], you need to find the longest string S 
+which is the prefix of ALL the strings in the array.
+Longest common prefix (LCP) for a pair of strings S1 and S2 is the 
+longest string S which is the prefix of both S1 and S2.
+For Example: longest common prefix of “abcdefgh” and “abcefgh” is “abc”.
+
+Time complexity: O(NM log M)
+N = Number of strings
+M = Length of the longest string
+
+Space complexity:
+O(M) 
+M = Length of the longest string 
+
+Test Cases:
+case1:
+input=flower flow flight
+output=fl
+
+case2:
+input=hello hell her he
+output=he
+
+case3:
+input=anty anticipate ant antacid
+output=ant
+*/

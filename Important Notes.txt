@@ -1,0 +1,2 @@
+Non static method can call static variable
+Static method cannot call non static variable
