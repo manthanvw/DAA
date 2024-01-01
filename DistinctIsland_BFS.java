@@ -59,7 +59,7 @@ are different.
 */
 import java.util.*;
 
-public class DistinctIsland {
+public class DistinctIsland_BFS {
     private static int[][] delta = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
     public int numDistinctIslands(int[][] grid) {
@@ -108,7 +108,7 @@ public class DistinctIsland {
         Scanner scan = new Scanner(System.in);
         int R = scan.nextInt();
         int C = scan.nextInt();
-        DistinctIsland di = new DistinctIsland();
+        DistinctIsland_BFS di = new DistinctIsland_BFS();
         int[][] field = new int[R][C];
 
         for (int i = 0; i < R; i++) {
